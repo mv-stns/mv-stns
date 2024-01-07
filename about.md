@@ -1,9 +1,8 @@
 # About
 
-A website inside an SVG, inside an image, inside HTML, inside markdown, inside a GitHub readme.md.
+A website inside an SVG, inside an image, inside HTML, inside markdown, inside a GitHub readme.md. This has been made by [Terkel](https://github.com/terkelg)
 
-> [!WARNING]
-> This is all very experimental and may break any time.
+> \[!WARNING\] This is all very experimental and may break any time.
 
 ## Development
 
@@ -25,8 +24,7 @@ To fetch the GitHub contributions locally run. This requires a GitHub token to b
 pnpm stats
 ```
 
-A GitHub action will automatically build and run the CI script every 12 hours to update the contribution graph and redeploy the site.
-To do a local deploy run:
+A GitHub action will automatically build and run the CI script every 12 hours to update the contribution graph and redeploy the site. To do a local deploy run:
 
 ```bash
 pnpm run deploy
