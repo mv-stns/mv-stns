@@ -1,11 +1,11 @@
 {
-  "name": "terkelg",
+  "name": "mv-stns",
   "version": "1.0.0",
   "private": true,
   "type": "module",
   "scripts": {
     "start": "wrangler dev",
-    "deploy": "pnpm stats && wrangler deploy",
+    "deploy": "npm run stats && wrangler deploy",
     "format": "prettier --write ./{src,scripts}/*",
     "stats": "tsm --env-file .env scripts/stats.ts",
     "lint": "prettier --check ./{src,scripts}/*",
@@ -18,5 +18,8 @@
     "tsm": "^2.3.0",
     "typescript": "^5.3.2",
     "wrangler": "^3.17.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
   }
 }

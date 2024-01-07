@@ -2,7 +2,7 @@ import type { Year } from './worker';
 
 const BP_MEDIUM = 550;
 const BP_LARGE = 700;
-const BODY_COPY = `I'm Terkel. A Brooklyn-based internet enthusiast, creative technologist and maker of digital ephemera.`;
+const BODY_COPY = `Hi, I'm Marcus, a macOS-Nerd from Germany, currently studying Media Computer Science at HSRM in Wiesbaden!`;
 
 interface Props {
   width?: number;
@@ -34,20 +34,20 @@ const svg = (styles: string, html: string, attributes: Attributes) => {
 
 export const shared = /* css */ `
 	:root {
-		--color-text-light: #255DF6;
+		--color-text-light: #f5a442;
 		--color-dot-bg-0-light: #EBEDF0;
-		--color-dot-bg-1-light: #A7BEFB;
-		--color-dot-bg-2-light: #628BF9;
-		--color-dot-bg-3-light: #4071F7;
-		--color-dot-bg-4-light: #255DF6;
+		--color-dot-bg-1-light: #fad5a7;
+		--color-dot-bg-2-light: #fab561;
+		--color-dot-bg-3-light: #f7a640;
+		--color-dot-bg-4-light: #f5a442;
 		--color-dot-border-light: rgb(0 0 0 / 0.06);
 
-		--color-text-dark: #255DF6;
-		--color-dot-bg-0-dark: #171B21;
-		--color-dot-bg-1-dark: #152A62;
-		--color-dot-bg-2-dark: #2048B3;
-		--color-dot-bg-3-dark: #1951EB;
-		--color-dot-bg-4-dark: #0048FF;
+		--color-text-dark: #f5a442;
+		--color-dot-bg-0-dark: #211d17;
+		--color-dot-bg-1-dark: #613e14;
+		--color-dot-bg-2-dark: #b37020;
+		--color-dot-bg-3-dark: #eb8d1a;
+		--color-dot-bg-4-dark: #ff8c00;
 		--color-dot-border-dark: rgb(0 0 0 / 0.06);
 
 		/* Initial animation offset... */
@@ -102,7 +102,7 @@ export const shared = /* css */ `
 		position: relative;
 		overflow: clip;
 
-		font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+		font-family: "Geist",-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
 		color: var(--color-text);
 	}
 
@@ -116,7 +116,7 @@ export const shared = /* css */ `
 	.label {
 		contain: content;
 		font-size: 14px;
-		font-weight: 600;
+		font-weight: 100;
 	}
 
 	.link {
