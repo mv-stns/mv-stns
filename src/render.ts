@@ -419,7 +419,7 @@ export const top = (props: Props & { contributions: number }) => {
 		<div class="wrapper grid label">
 			<div class="menu fade-in">Menu</div>
 			<div class="contributions fade-in">
-				<span class="shine">${(props.contributions / 1000).toFixed(1)}k</span> Contributions
+				<span class="shine">${(props.contributions)}</span> Contributions
 			</div>
 			<div class="readme fade-in">readme.md</div>
 		</div>
