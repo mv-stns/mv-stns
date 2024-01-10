@@ -19,6 +19,6 @@ jobs:
           node-version: 20.8.1
           cache: 'pnpm'
 
-      - run: npm install
-      - run: npm run types
-      - run: npm run lint
+      - run: pnpm install
+      - run: pnpm types
+      - run: pnpm lint

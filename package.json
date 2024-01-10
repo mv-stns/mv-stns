@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "wrangler dev",
-    "deploy": "npm run stats && wrangler deploy",
+    "deploy": "pnpm stats && wrangler deploy",
     "format": "prettier --write ./{src,scripts}/*",
     "stats": "tsm --env-file .env scripts/stats.ts",
     "lint": "prettier --check ./{src,scripts}/*",
